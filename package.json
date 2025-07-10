@@ -1,0 +1,27 @@
+{
+  "name": "resilient-email-service",
+  "version": "1.0.0",
+  "description": "A resilient email sending service in JavaScript using mock providers, retry, fallback, idempotency, and rate limiting.",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "jest"
+  },
+  "keywords": [
+    "email",
+    "retry",
+    "fallback",
+    "rate-limit",
+    "idempotency",
+    "express",
+    "javascript"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "jest": "^30.0.4"
+  }
+}
